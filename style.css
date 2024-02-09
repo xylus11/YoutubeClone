@@ -269,7 +269,7 @@ a{
     height: fit-content;
     width:auto;
     display: flex;
-align-items: center;
+    align-items: center;
     padding: 8px;
     gap:10px;
     border-radius: 20px;
@@ -422,11 +422,35 @@ header{
     #main{
         
        
-        display: flex;
-        flex-direction:column;
-  
-         margin-left:50px;
-         margin-right:50px;
+       
+       width: 100vw;
+         
     
     }
+    #player{
+        height: 250px;
+    }
+    #recommended{
+        width: auto;
+      height: 100vh;
+      display: flex;
+      flex-direction: row;
+     
+  
+  }
+ #related>a>img{
+   height: 25px;
+}
+#channel-info{
+    display: flex;
+    flex-direction: column;
+  
+}
+#channel-description{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+   gap: 10px;
+    margin-top: 20px;
+}
 }
