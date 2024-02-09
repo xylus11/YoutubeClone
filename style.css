@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -19,6 +19,7 @@ body{
 }
 
 header{
+    width: 100vw;
     position:sticky;
     top: 0px;
     display: flex;
@@ -36,13 +37,8 @@ header{
     display: flex;
     height: 40px;
     background-color: rgb(12, 11, 11);
-    border-top-left-radius: 20px;
-    border-bottom-left-radius:20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
     border: 1px solid rgb(95, 95, 95);
-
-
     overflow: hidden;
 }
 input{
@@ -72,6 +68,9 @@ button{
     height: 45px;
     
     background-color: rgb(29, 28, 28);
+}
+#icons{
+    margin-right: 50px;
 }
 #main{
     display: flex;
@@ -322,4 +321,102 @@ a{
 }
 #related>img{
     border-radius:15px;
+}
+
+@media screen and (max-width:480px) {
+    html,body{
+        overflow-x: hidden;
+    }
+   
+    
+header{
+    width: 100vw;
+    position:sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    text-align: center;
+    height: 10px;
+ 
+ 
+    border:1px solid rgb(0, 0, 0);
+    background-color: rgb(12, 11, 11);
+  
+    z-index: 1000;
+}
+
+   
+    #icons{
+        margin-right:0px;
+        padding-right: 0px;
+        display: inline;
+    }
+    #search{
+        width: 20%;
+        height: 30px;
+        
+    }
+    
+    span{
+        display: none;
+    }
+    #sidebar{
+        position: fixed;
+        top:20px;
+        width: 50px;
+        height: 100vh;
+
+    }
+    .video-container>img{
+        height:90px;
+        border-radius: 10px;
+        width: 160px;
+    
+    }
+    .title{
+        font-size:10px;
+        width: 100%;
+       
+    }
+    .desc{
+        width: 110px;
+      
+        
+    }
+    h4{
+        font-size: 8px;
+    }
+    h5{
+        font-size: 5px;
+    }
+    #main-contain>a{
+        width: 120px;
+    }
+  
+    
+    #display-section{
+        position: relative;
+         left: 25px;
+       
+         display: flex;
+         flex-direction:row;
+         flex-wrap: wrap;
+         gap: 10px;
+         
+         
+       }
+       .channel-dp>img{
+        width: 25px;
+        padding: 5px;
+        border-radius: 50%;
+    
+    }
+    #main{
+      
+  
+      top: 30px;
+
+    
+    }
 }
