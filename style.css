@@ -348,9 +348,13 @@ header{
 
    
     #icons{
+     
         margin-right:0px;
         padding-right: 0px;
         display: inline;
+    }
+    #nav>img:nth-child(-n+2){
+        display: none;
     }
     #search{
         width: 40%;
