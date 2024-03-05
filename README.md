@@ -5,7 +5,7 @@
 
 
 ## Description:
-Welcome to our GitHub repository for a YouTube clone, meticulously crafted to offer a seamless video streaming experience without intrusive advertisements. Our project focuses on providing a user-friendly interface and responsiveness across various devices, ensuring optimal viewing regardless of screen size.
+Welcome to our GitHub repository for a YouTube clone, meticulously crafted to offer a seamless video streaming experience with reduced 300ms of loading on related videos section without intrusive advertisements . Our project focuses on providing a user-friendly interface and responsiveness across various devices, ensuring optimal viewing regardless of screen size.
 
 ## Key Features:
 
