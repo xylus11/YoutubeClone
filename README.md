@@ -4,10 +4,10 @@
 ![yt  clone 2](https://github.com/xylus11/YoutubeClone/assets/97844580/a46da767-37fd-4912-98ee-fb5903a88903)
 
 
-Description:
+## Description:
 Welcome to our GitHub repository for a YouTube clone, meticulously crafted to offer a seamless video streaming experience without intrusive advertisements. Our project focuses on providing a user-friendly interface and responsiveness across various devices, ensuring optimal viewing regardless of screen size.
 
-Key Features:
+## Key Features:
 
 Ad-Free Experience: Say goodbye to interruptions! Our YouTube clone eliminates advertisements, allowing users to enjoy uninterrupted video content.
 Responsive Design: Our platform is designed to adapt effortlessly to different screen sizes, offering a consistent viewing experience across desktops, laptops, tablets, and smartphones.
